@@ -1,13 +1,27 @@
 .NavBar1{
     display: flex;
+    background-color: #bababc;
+    height: 10vh;
 }
 
-.DivNavBar{
-    font-family:"Baby Mentani",  cursive;
-    font-size: 10vh;
+.DivNavBar img{
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
 }
+
+.gohub{
+    font-family: Snell Roundhand, cursive;
+    font-style: italic;
+    font-size: 7vh;
+    margin-left: 10px;
+}
+
 
 .NavMenu{
+    margin-left: 70vh;
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 12px;
@@ -18,7 +32,7 @@
 
 
 ul{
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
 }
 

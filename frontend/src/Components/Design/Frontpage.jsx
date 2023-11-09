@@ -7,7 +7,9 @@ export const Frontpage = () =>
         <section>
         <Navbar/>
         <div className='Pans'>
-            <img  className= 'background' src='Bus1.0.png' alt='Background'></img>
+            <div className= 'bus'>
+                <img src='Bus1.0.png' alt='Background'></img>
+            </div>
         </div>
         </section>     
     )
